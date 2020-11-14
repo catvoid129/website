@@ -1,0 +1,74 @@
+/*import fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Goldman&family=News+Cycle:wght@700&family=Roboto:wght@100&display=swap');
+
+:root{
+    --primary-color: #a4c8ed;
+    --text-color: #000000;
+    --border: #575d63;
+    --roborto: "Roborto";
+    --anton: "anton";
+}
+
+.primary-color{
+    color: var(--primary-color);
+}
+
+.bg-primary-color{
+    background-color: var(--primary-color) !important;
+}
+
+.text-color{
+    color: var(--text-color);
+}
+
+.font-roboto{
+    font-family: var(--roborto);
+}
+.text-color{
+    color:var(--text-color);
+}
+
+.font-anton{
+     font-family: var(--anton);
+}
+
+/*header*/
+
+header{
+    background-color: var(--primary-color);
+    font-family: var(--roborto);
+}
+
+header .site-title{
+   font-family: var(--anton)
+}
+
+.container .dropdown-toggle,
+.container .dropdown-item{
+    font-size: 0.7em;
+}
+
+.header-links a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+}
+
+/*Navigation Menu */
+
+.navbar-nav{
+    padding: 0.8em Dem;
+}
+
+.navbar-nav .nav-link{
+    font-size: 0,9em;
+    color: grey;
+}
+
+.navbar-nav .nav-item .nav-link{
+  padding: 0 1.3em,
+}
+
+.navbar-nav{
+    
+}
